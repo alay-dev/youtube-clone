@@ -1,0 +1,46 @@
+.search__form {
+    display: flex;
+    width: 100% ;
+}
+
+.search__form > input {
+    height: 3.5rem ;
+    flex: 1 ;
+    border: 1px solid rgb(182, 179, 179) ;
+    font-size: 1.6rem ;
+    padding-left: 1rem ;
+}
+
+.search__form > input:focus {
+    outline: 1px solid #065fd4;
+}
+
+.submit__btn {
+    border: none ;
+    cursor: pointer ;
+    width: 6.5rem ;
+    height: 3.5rem ;
+    background-color: rgb(250, 245, 245);
+    display: flex ;
+    justify-content: center ;
+    align-items: center;
+    border: 1px solid rgb(182, 179, 179) ;
+    border-left: none !important;
+}
+
+.submit__btn:focus {
+    outline: none ;
+}
+
+.submit__btn .search__icon {
+    font-size: 2.2rem ;
+    color: rgb(160, 150, 150) ;
+}
+
+.submit__btn:hover {
+    background-color: rgb(243, 236, 236);
+}
+
+.submit__btn:hover .search__icon {
+    color: rgb(112, 99, 99);
+}

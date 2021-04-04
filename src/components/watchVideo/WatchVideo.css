@@ -1,0 +1,160 @@
+
+.watch__video {
+    background-color: rgb(253, 249, 249);
+    padding: 2rem 10rem ;
+
+    display: flex ;
+    margin-top: 6.5rem ;
+}
+
+.Main {
+    flex: 0.62;
+    margin-right: 2.6rem ;
+}
+
+.recommendation {
+    flex: 0.38;
+}
+
+.Main__player {
+    width: 100% ;
+    height: 40rem ;
+    border: none ;
+    outline: none;
+}
+
+.video__title {
+    font-size: 2.1rem ;
+    margin: 1.8rem 0 1.5rem 0;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.4rem ;
+    border-bottom: 1px solid rgb(219, 216, 216);
+    margin-bottom: 2rem ;
+}
+
+.leftStats {
+    font-size: 1.5rem ;
+    color: rgb(88, 77, 77);
+}
+
+.rightStats {
+    display: flex ;
+}
+
+.stats__container {
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    color:rgb(148, 132, 132);
+    font-size: 1.5rem ;
+    margin-left: 2.5rem;
+    text-transform: uppercase;
+}
+
+.stats__container span {
+    color: rgb(117, 103, 103);
+    font-weight: 500;
+}
+
+.rightStats .icon {
+    font-size: 2.9rem ;
+    margin-right: 0.5rem ;
+}
+
+.video__description {
+    display: flex ;
+    align-items: center;
+}
+
+.channel__description {
+    width: 100% ;
+}
+
+.channel__description--subscribe {
+    display: flex ;
+    align-items: center ;
+    justify-content: space-between;
+    height: 4rem;
+    margin-bottom: 3rem;
+}
+
+.channel__img {
+    width: 6rem ;
+    height: 6rem ;
+    border-radius: 50% ;
+    margin-right: 2rem ;
+    align-self: flex-start;
+}
+
+.channel__title {
+    font-weight: 500;
+    color: rgb(48, 47, 47);
+    font-size: 1.6rem ;
+}
+
+.subscribe__btn {
+    background-color: #c00;
+    color: white ;
+    padding: 1rem 2rem ;
+    border-radius: 3px ;
+    font-size: 1.5rem ;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.channel__description--more {
+    font-size: 1.5rem ;
+    line-height: 1.7;
+    color: rgb(48, 47, 47);
+}
+
+.recommendation__video {
+    width: 100% ;
+    display: flex ;
+    margin-bottom: 1rem ;
+}
+
+.video__thumbnail--container {
+    position: relative ;
+    margin-right: 1rem ;
+}
+
+.video__thumbnail--container span {
+    position: absolute;
+    right: 0.8rem ;
+    bottom: 1rem ;
+    background-color: rgba(0, 0, 0, 0.747) ;
+    color: white;
+    padding: 0.3rem 0.5rem ;
+    font-size: 1.3rem ;
+    font-weight: 500;
+}
+
+.video__thumbnail {
+    width: 22rem ;
+    height: 13rem ;
+    outline: none ;
+    border: none ;
+}
+
+.recommendation__video--details h3 {
+    font-size: 1.5rem ;
+    font-weight: 500;
+    color: #030303;
+}
+.recommendation__video--details {
+    padding-top: 0.5rem ;
+}
+
+.recommendation__video--details p {
+    margin: 0.6rem 0;
+    font-size: 1.4rem ;
+    font-weight: 500;
+    color: #606060;
+}
+
